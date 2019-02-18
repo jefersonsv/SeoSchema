@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Authors>Jeferson Tenorio</Authors>
+    <Company />
+    <RepositoryUrl>https://github.com/jefersonsv/SeoSchema</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageProjectUrl>https://github.com/jefersonsv/SeoSchema</PackageProjectUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/mit-license.php</PackageLicenseUrl>
+    <Description>Generate script ld+json of schema.org structured data on the internet easily</Description>
   </PropertyGroup>
 
   <ItemGroup>
