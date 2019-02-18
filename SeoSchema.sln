@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F049FBFA-9EBE-44DB-BBB6-E4328DFB10F8}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CD66418-936F-481F-AF3C-3CC58E636954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeoSchema", "src\SeoSchema\SeoSchema.csproj", "{A4706A59-36B2-4E53-BBF1-9F8FC96CDB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4706A59-36B2-4E53-BBF1-9F8FC96CDB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4706A59-36B2-4E53-BBF1-9F8FC96CDB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4706A59-36B2-4E53-BBF1-9F8FC96CDB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4706A59-36B2-4E53-BBF1-9F8FC96CDB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4706A59-36B2-4E53-BBF1-9F8FC96CDB4C} = {7CD66418-936F-481F-AF3C-3CC58E636954}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC0D026E-C354-4FB4-A288-8F6002D0DEFE}
+	EndGlobalSection
+EndGlobal
